@@ -71,6 +71,25 @@ button {
 }
 
 /*
+ * different styling for mobile screens
+ */
+@media only screen and (max-device-width: 480px) {
+    .background_img {
+        /*  content:url(pages/chicago_bean.JPG/350x150);*/
+	width: 100%;
+	height: 100%;
+	/*background-color: blue !important;*/
+	background-image: url('../images/bg.jpg');
+	background-size: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    }
+}
+/************************************************/
+
+/*
  * This is for arranging items using flex on index.html
  */
 .main-header-container {
@@ -103,20 +122,40 @@ button {
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex;
+/*  display: flex;*/
   
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 
-  height: 100%;
+/*  height: 100%;*/
   padding: 0;
   margin: 0;
 }
 
 .main-body-container .flex-item {
   text-align: right;
+}
+
+.fb-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+/*  display: flex;*/
+  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+/*  height: 100%;*/
+  padding: 0;
+  margin: 0;
+}
+.fb-container .flex-item {
+  text-align: center;
 }
 /***************************************************************/
 
@@ -126,7 +165,6 @@ button {
 .redirect-socials, .redirect-menu-items {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  top: 80%;
 }
 .redirect-socials li, .redirect-menu-items li {
   display: inline-block;
@@ -137,7 +175,7 @@ button {
   margin-right: 0;
 }
 .redirect-socials a {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   display: inline-block;
   padding: .8em 1.2em 1em;
