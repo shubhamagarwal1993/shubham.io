@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(font-awesome.min.css);
 
 /* Hide slider image until page is fully loaded*/
 body:not(.loaded) {
