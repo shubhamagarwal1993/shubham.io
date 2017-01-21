@@ -1,6 +1,5 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
 
 /* Hide slider image until page is fully loaded*/
 body:not(.loaded) {
