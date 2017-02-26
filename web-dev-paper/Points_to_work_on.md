@@ -48,4 +48,28 @@ PAPER and make own website simultaneously
         - https://regexone.com/
     - SQL zoo in bookmarks
  
+- chrome dev tools
+- js book complete it
+- update website (https://projects.lukehaas.me/scrollify/#examples)
+
+
+- Slack support page has some good colors / fonts / design. Pick up a few ideas from there
+- Use google fonts
+- Decide on colors (3 colors)
+- Check out https://aclima.io/
+- Make mobile friendly website
+
+Check out
+WEATHER
+    - Weather.gov
+    - Earth.-.net
+    - Earth.nullschool.net
+    - Weathertap.com
+    - https://www.windytv.com
+
+IP / SPEED / INTERNET CONNECTION DATA
+    - http://ipinfo.io/
+
+
+
 
