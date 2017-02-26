@@ -35,3 +35,17 @@ PAPER and make own website simultaneously
         * Check this course (http://learnui.design/)
         * 
 
+
+
+
+
+
+
+# EXTRA LINKS TO ADD:
+    - Regex
+        - code academy (use of a regular expression)
+        - regex101.com
+        - https://regexone.com/
+    - SQL zoo in bookmarks
+ 
+
