@@ -89,7 +89,11 @@ img {
   font-family: monospace;
   font-weight: lighter;
 }
-
+ul.navbar-options li {
+    width: auto;
+    float: left;
+    margin: 4px;
+}
 /***********body article*****************/
   /*0th block*/
 .content {
@@ -136,7 +140,8 @@ img {
 
 /**************** footer ****************/
 .footer {
-  background-color: #dcf3ed;
+  /*background-color: #dcf3ed;*/
+  background-color: #ffffff;
   padding: 0;
 }
 .follow {
@@ -172,7 +177,7 @@ img {
   display: block;
   width: 100%;
 }
-.btn.btn-default--border {
+.btn.btn-default__border {
   border: 1px solid #535353;
 }
 .btn.btn-default {
@@ -232,7 +237,7 @@ img {
 
 
 .footer__list {
-  padding: 0 0 10px 0;
+  padding: 10px 0 10px 0;
 }
 .footer__copyright {
   color: black;
