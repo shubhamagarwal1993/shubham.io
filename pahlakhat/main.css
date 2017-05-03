@@ -88,11 +88,33 @@ img {
   list-style: none;
   font-family: monospace;
   font-weight: lighter;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+@media only screen and (max-device-width:325px) {
+    .navbar-options {
+        width: 310px;
+        padding: 0;
+        margin: 2px 2px 2px 2px;
+        list-style: none;
+        font-family: monospace;
+        font-weight: lighter;
+        overflow-wrap: break-word;
+        display: inline-block;
+    }
 }
 ul.navbar-options li {
     width: auto;
     float: left;
-    margin: 4px;
+    margin: auto;
+}
+@media only screen and (max-device-width:325px) {
+    ul.navbar-options li {
+        margin: 4px;
+        word-wrap:break-word;
+    }
 }
 /***********body article*****************/
   /*0th block*/
